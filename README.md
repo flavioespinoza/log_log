@@ -164,4 +164,4 @@ Use _log.timer(method, method_name) to log how long a function takes to return.
 
 ```
 
-![timer](./img/timer.png)
+![log_timer](./img/log_timer.png)
