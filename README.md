@@ -50,6 +50,22 @@ _log.deep(data) //=> See outputs below in console
 
 Use _log.alert_name() to show different levels of priority.
 
+```javascript
+    _log.info(data)
+```
+
+```javascript
+    _log.error(data)
+```
+
+```javascript
+    _log.alert(data)
+```
+
+```javascript
+    _log.warn(data)
+```
+
 ![alerts](./img/alerts.png)
 
 
@@ -57,12 +73,68 @@ Use _log.alert_name() to show different levels of priority.
 
 Use _log.background_color_name() to show data with background color.
 
+```javascript
+    _log.blue(data)
+```
+
+```javascript
+    _log.red(data)
+```
+
+```javascript
+    _log.green(data)
+```
+
+```javascript
+    _log.pink(data)
+```
+
+```javascript
+    _log.yellow(data)
+```
+
+```javascript
+    _log.violet(data)
+```
+
+```javascript
+    _log.cyan(data)
+```
+
 ![colors](./img/colors.png)
 
 
 # Text Colors
 
 Use log.color_name() without the underscore to color text with no background.
+
+```javascript
+    log.blue(data)
+```
+
+```javascript
+    log.red(data)
+```
+
+```javascript
+    log.green(data)
+```
+
+```javascript
+    log.yellow(data)
+```
+
+```javascript
+    log.cyan(data)
+```
+
+```javascript
+    log.magenta(data)
+```
+
+```javascript
+    log.black(data)
+```
 
 ![text](./img/text.png)
 
