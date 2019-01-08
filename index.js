@@ -1,13 +1,17 @@
-const dotenv = require('dotenv')
-dotenv.load()
-
 require('ansicolor').nice
-const util = require('util')
 const log = require('ololog').configure({locate: false})
+const util = require('util')
+
 
 const _log = {
 	deep: (data) => {
-		console.log(util.inspect(data, false, null, true))
+		const options = {
+			showHidden: false,
+			depth: null,
+			colors: true
+		}
+		const inspect = util.inspect(data, options)
+		console.log(inspect)
 	},
 	info: (msg) => {
 		if (typeof msg === 'object') {
