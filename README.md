@@ -1,4 +1,4 @@
-# log_log
+# Log_Log
 
 ```console
 npm install @flavioespinoza/log_log --save
