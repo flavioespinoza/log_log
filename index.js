@@ -63,12 +63,6 @@ const _log = {
 		}
 		console.log(`${msg} `.bgLightYellow.white)
 	},
-	baby: (msg) => {
-		if (typeof msg === 'object') {
-			msg = JSON.stringify(msg)
-		}
-		console.log(`${msg} `.bgLightBlue.black)
-	},
 	violet: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
@@ -92,9 +86,9 @@ const _log = {
 		}
 	},
 	timer: (method, method_name) => {
-		console.time(`_timer ${method_name}()`)
+		console.time(`Timer ${method_name}()`)
 		method()
-		console.timeEnd(`_timer ${method_name}()`)
+		console.timeEnd(`Timer ${method_name}()`)
 	}
 }
 
