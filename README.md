@@ -38,10 +38,11 @@ const data = [
 		}
 	}
 ]
+
+_log.deep(data) //=> See console output below...
 ```
 
 _log.deep will show the complete data structure no matter how deep the nested object is.
-
 ![deep](./img/deep.png)
 
 Normal console.log(data) does not show nested data past 2 levels deep.
