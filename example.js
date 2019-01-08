@@ -31,9 +31,11 @@ const data = [
 ]
 
 
+// console.log('')
+// _log.deep(data)
+
+
+
 console.log('')
-_log.deep(data)
-
-
-
+console.log(data)
 console.log('')

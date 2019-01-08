@@ -41,6 +41,11 @@ _log.deep(data) //=> See outputs below in console
 ```
 ![deep](./img/deep.png)
 
+### Normal console.log(data) does not show nested data past 2 levels deep.
+![deep](./img/console_log.png)
+
+
+
 
 ## Alerts
 
