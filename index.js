@@ -55,7 +55,7 @@ const _log = {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgRed.white)
+		console.log(`${msg} `.bgGreen.white)
 	},
 	pink: (msg) => {
 		if (typeof msg === 'object') {
