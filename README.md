@@ -13,6 +13,10 @@ const log = require('@flavioespinoza/log_log').log
 
 # Deep (Nested Objects)
 ```javascript
+_log.deep(data)
+```
+
+```javascript
 const data = [
 	{
 		'name': 'Ren',
@@ -37,10 +41,6 @@ const data = [
 ```
 
 ### _log.deep will show the complete data structure no matter how deep the nested object is.
-
-```javascript
-_log.deep(data)
-```
 
 ![deep](./img/deep.png)
 
