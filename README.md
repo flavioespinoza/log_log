@@ -13,9 +13,10 @@ const log = require('@flavioespinoza/log_log').log
 Define your data.
 ```javascript
 const string = 'Important Message from your Node App.'
+
 const obj = {
-'prop_name': 'My Name',
-'value': 101
+    prop_name: 'My Name',
+    value: 101
 }
 
 const data = [
@@ -38,4 +39,4 @@ Options
 _log.deep(data)
 ```
 
-![_log.deep()](./img/_log_colors.png)
+![_log.deep()](./img/_log_colors.png =100x)
