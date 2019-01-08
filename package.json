@@ -1,6 +1,6 @@
 {
   "name": "@flavioespinoza/log_log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color logs for server and client",
   "main": "index.js",
   "scripts": {
