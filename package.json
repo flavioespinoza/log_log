@@ -1,5 +1,5 @@
 {
-  "name": "log_log",
+  "name": "@flavioespinoza/log_log",
   "version": "1.0.0",
   "description": "Color logs for server and client",
   "main": "index.js",
