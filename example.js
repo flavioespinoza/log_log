@@ -35,7 +35,14 @@ const data = [
 // _log.deep(data)
 
 
+function do_stuff () {
+	let res = []
+	for (let i = 0; i < 100000; i++) {
+		res.push(i)
+	}
+	return res
+}
 
 console.log('')
-console.log(data)
+_log.timer(do_stuff, 'do_stuff')
 console.log('')
