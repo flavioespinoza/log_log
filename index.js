@@ -13,85 +13,79 @@ const _log = {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(` Info: ${msg} `.bgBlue.white)
+		console.log(` Info: ${msg} `.bgBlue.black)
 	},
 	error: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(` Error: ${msg} `.bgRed.white)
-	},
-	debug: (msg) => {
-		if (typeof msg === 'object') {
-			msg = JSON.stringify(msg)
-		}
-		console.log(` Debug: ${msg} `.bgRed.white)
+		console.log(` Error: ${msg} `.bgRed.black)
 	},
 	alert: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(` Alert: ${msg} `.bgYellow.white)
+		console.log(` Alert: ${msg} `.bgYellow.black)
 	},
 	warn: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(` Warn: ${msg} `.bgMagenta.white)
+		console.log(` Warn: ${msg} `.bgMagenta.black)
 	},
 	blue: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgBlue.white)
+		console.log(`${msg} `.bgBlue.black)
 	},
 	red: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgRed.white)
+		console.log(`${msg} `.bgRed.black)
 	},
 	green: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgGreen.white)
+		console.log(`${msg} `.bgGreen.black)
 	},
 	pink: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightRed.white)
+		console.log(`${msg} `.bgLightRed.black)
 	},
 	lime: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightGreen.white)
+		console.log(`${msg} `.bgLightGreen.black)
 	},
 	lemon: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightYellow.white)
+		console.log(`${msg} `.bgLightYellow.black)
 	},
 	baby: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightBlue.white)
+		console.log(`${msg} `.bgLightBlue.black)
 	},
 	violet: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightMagenta.white)
+		console.log(`${msg} `.bgLightMagenta.black)
 	},
 	aqua: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightCyan.white)
+		console.log(`${msg} `.bgLightCyan.black)
 	},
 	gray: (msg) => {
 		if (typeof msg === 'object') {
@@ -103,7 +97,7 @@ const _log = {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgCyan.white)
+		console.log(`${msg} `.bgCyan.black)
 	},
 	assert: (item, item_name) => {
 		if (item) {
