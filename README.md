@@ -11,26 +11,36 @@ const _log = require('@flavioespinoza/log_log')._log
 const log = require('@flavioespinoza/log_log').log
 ```
 
-Define your data.
+## Deep (Nested Objects)
+
 ```javascript
 const data = [
 	{
 		'name': 'Ren',
-		'id': 1
-	},
-	{
-		'name': 'Stimpy',
-		'id': 2
-	},
-	{
-		'name': 'Fire Chief',
-		'id': 3
+		'id': 1,
+		'preferences': {
+			'food': 'steak',
+			'drink': 'bourbon',
+			'ice_cream': 'soap bar',
+			'favorite_episode': 'Space Madness',
+			'hobbies': {
+				'sports': ['soccer', 'bad mitten'],
+				'dancing': ['salsa', 'bachata'],
+				'music': {
+					'alternative': ['Pearl Jam', 'Nirvana'],
+					'glam_rock': ['Mötley Crüe', 'Poison'],
+					'country': ['Johnny Cash', 'George Strait']
+				}
+			}
+		}
 	}
 ]
 
-_log.deep(data) //=> See outputs below in Node console
+_log.deep(data) //=> See outputs below in console
 
 ```
+![deep](./img/deep.png)
+
 
 ## Alerts
 
