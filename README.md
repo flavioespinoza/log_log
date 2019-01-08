@@ -145,3 +145,23 @@ Use log.color_name() without the underscore to color text with no background.
 
 ![text](./img/text.png)
 
+
+# Timer
+
+Use _log.timer(method, method_name) to log how long a function takes to return.
+
+```javascript
+    function do_stuff () {
+    	let res = []
+    	for (let i = 0; i < 100000; i++) {
+    		res.push(i)
+    	}
+    	return res
+    }
+
+
+    _log.timer(do_stuff, 'Do Stuff')
+
+```
+
+![timer](./img/timer.png)

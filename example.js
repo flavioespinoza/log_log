@@ -44,5 +44,5 @@ function do_stuff () {
 }
 
 console.log('')
-_log.timer(do_stuff, 'do_stuff')
+_log.timer(do_stuff, 'Do Stuff')
 console.log('')
