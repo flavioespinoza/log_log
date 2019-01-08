@@ -44,7 +44,7 @@ _log.deep will show the complete data structure no matter how deep the nested ob
 
 ![deep](./img/deep.png)
 
-### Normal console.log(data) does not show nested data past 2 levels deep.
+Normal console.log(data) does not show nested data past 2 levels deep.
 ![deep](./img/console_log.png)
 
 
