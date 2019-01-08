@@ -11,7 +11,7 @@ const _log = require('@flavioespinoza/log_log')._log
 const log = require('@flavioespinoza/log_log').log
 ```
 
-# Deep (Nested Objects)
+## Deep (Nested Objects)
 ```javascript
 _log.deep(data)
 ```
@@ -53,7 +53,7 @@ Normal console.log(data) does not show nested data past 2 levels deep.
 ![deep](./img/console_log.png)
 
 
-# Alerts
+## Alerts
 
 Use _log.alert_name() to show different levels of priority.
 
@@ -76,7 +76,7 @@ Use _log.alert_name() to show different levels of priority.
 ![alerts](./img/alerts.png)
 
 
-# Background Colors
+## Background Colors
 
 Use _log.background_color_name() to show data with background color.
 
@@ -111,7 +111,7 @@ Use _log.background_color_name() to show data with background color.
 ![colors](./img/colors.png)
 
 
-# Text Colors
+## Text Colors
 
 Use log.color_name() without the underscore to color text with no background.
 
@@ -146,7 +146,7 @@ Use log.color_name() without the underscore to color text with no background.
 ![text](./img/text.png)
 
 
-# Timer
+## Timer
 
 Use _log.timer(method, method_name) to log how long a function takes to return.
 
