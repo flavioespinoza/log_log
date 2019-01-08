@@ -39,4 +39,4 @@ Options
 _log.deep(data)
 ```
 
-![]("./img/log_colors.png"){:height="36px" width="36px"}
+![]("./img/log_colors.png")
