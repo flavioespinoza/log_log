@@ -40,7 +40,7 @@ const data = [
 ]
 ```
 
-### _log.deep will show the complete data structure no matter how deep the nested object is.
+_log.deep will show the complete data structure no matter how deep the nested object is.
 
 ![deep](./img/deep.png)
 
