@@ -39,4 +39,4 @@ Options
 _log.deep(data)
 ```
 
-![]('./img/log_colors.png')
+![colors](./img/colors.png)
