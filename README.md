@@ -10,15 +10,9 @@ Require it in your Node app.
 const _log = require('@flavioespinoza/log_log')._log
 const log = require('@flavioespinoza/log_log').log
 ```
+
 Define your data.
 ```javascript
-const string = 'Important Message from your Node App.'
-
-const obj = {
-    prop_name: 'My Name',
-    value: 101
-}
-
 const data = [
 	{
 		'name': 'Ren',
@@ -34,9 +28,13 @@ const data = [
 	}
 ]
 ```
-Options
-```javascript
-_log.deep(data)
-```
+
+## Alerts
+
+![alerts](./img/alerts.png)
+
+
+## Background Colors
 
 ![colors](./img/colors.png)
+

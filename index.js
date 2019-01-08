@@ -57,17 +57,11 @@ const _log = {
 		}
 		console.log(`${msg} `.bgLightRed.black)
 	},
-	lime: (msg) => {
+	yellow: (msg) => {
 		if (typeof msg === 'object') {
 			msg = JSON.stringify(msg)
 		}
-		console.log(`${msg} `.bgLightGreen.black)
-	},
-	lemon: (msg) => {
-		if (typeof msg === 'object') {
-			msg = JSON.stringify(msg)
-		}
-		console.log(`${msg} `.bgLightYellow.black)
+		console.log(`${msg} `.bgLightYellow.white)
 	},
 	baby: (msg) => {
 		if (typeof msg === 'object') {
@@ -80,18 +74,6 @@ const _log = {
 			msg = JSON.stringify(msg)
 		}
 		console.log(`${msg} `.bgLightMagenta.black)
-	},
-	aqua: (msg) => {
-		if (typeof msg === 'object') {
-			msg = JSON.stringify(msg)
-		}
-		console.log(`${msg} `.bgLightCyan.black)
-	},
-	gray: (msg) => {
-		if (typeof msg === 'object') {
-			msg = JSON.stringify(msg)
-		}
-		console.log(`${msg} `.bgLightGray.black)
 	},
 	cyan: (msg) => {
 		if (typeof msg === 'object') {
