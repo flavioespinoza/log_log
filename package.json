@@ -1,0 +1,24 @@
+{
+  "name": "log_log",
+  "version": "1.0.0",
+  "description": "Color logs for server and client",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/log_log.git"
+  },
+  "keywords": [
+    "log",
+    "console",
+    "color"
+  ],
+  "author": "S. Flavio Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/log_log/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/log_log#readme"
+}
