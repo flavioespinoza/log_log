@@ -10,68 +10,47 @@ const obj = {'prop': 'OBJECT', 'val': 1}
 
 const data = [
 	{
-		'name': 'Ren', 
+		'name': 'Ren',
 		'id': 1
 	},
 	{
-		'name': 'Stimpy', 
+		'name': 'Stimpy',
 		'id': 2
 	},
 	{
-		'name': 'Fire Chief', 
+		'name': 'Fire Chief',
 		'id': 3
 	}
 ]
 
 
 console.log('')
-console.log('_log.deep(data)')
-_log.deep(data)
+console.log('log.blue(data)')
+log.blue(data)
 
 console.log('')
-console.log('_log.info(data)')
-_log.info(data)
+console.log('log.red(data)')
+log.red(data)
 
 console.log('')
-console.log('_log.error(data)')
-_log.error(data)
+console.log('log.green(data)')
+log.green(data)
 
 console.log('')
-console.log('_log.alert(data)')
-_log.alert(data)
+console.log('log.yellow(data)')
+log.yellow(data)
 
 console.log('')
-console.log('_log.warn(data)')
-_log.warn(data)
-
-
-console.log('')
-console.log('_log.blue(data)')
-_log.blue(data)
+console.log('log.cyan(data)')
+log.cyan(data)
 
 console.log('')
-console.log('_log.red(data)')
-_log.red(data)
+console.log('log.magenta(data)')
+log.magenta(data)
 
 console.log('')
-console.log('_log.green(data)')
-_log.green(data)
-
-console.log('')
-console.log('_log.pink(data)')
-_log.pink(data)
-
-console.log('')
-console.log('_log.yellow(data)')
-_log.yellow(data)
-
-console.log('')
-console.log('_log.violet(data)')
-_log.violet(data)
-
-console.log('')
-console.log('_log.cyan(data)')
-_log.cyan(data)
+console.log('log.black(data)')
+log.black(data)
 
 
 

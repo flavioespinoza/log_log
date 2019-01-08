@@ -27,14 +27,28 @@ const data = [
 		'id': 3
 	}
 ]
+
+_log.deep(data) //=> See outputs below in Node console
+
 ```
 
 ## Alerts
+
+Use _log.alert_name() to show different levels of priority.
 
 ![alerts](./img/alerts.png)
 
 
 ## Background Colors
 
+Use _log.background_color_name() to show data with background color.
+
 ![colors](./img/colors.png)
+
+
+## Text Colors
+
+Use log.color_name() without the underscore to color text with no background.
+
+![text](./img/text.png)
 
