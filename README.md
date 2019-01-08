@@ -39,4 +39,4 @@ Options
 _log.deep(data)
 ```
 
-![_log.deep()](./img/_log_colors.png =100x)
+![_log.deep()](./img/_log_colors.png=100x)
