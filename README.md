@@ -14,6 +14,10 @@ const log = require('@flavioespinoza/log_log').log
 ## Deep (Nested Objects)
 ```javascript
 _log.deep(data)
+
+test
+
+
 ```
 
 ```javascript
