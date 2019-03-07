@@ -1,6 +1,6 @@
 {
   "name": "@flavioespinoza/log_log",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Color logs for node console",
   "esm": true,
   "main": "esm-loader.js",

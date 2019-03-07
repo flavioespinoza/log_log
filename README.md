@@ -20,7 +20,7 @@ yarn add @flavioespinoza/log_log
 npm
 
 ```shell
-npm i @flavioespinoza/esm-project
+npm i @flavioespinoza/log_log
 ```
 
 > Use `import` in typescript or using the new [esm](https://github.com/standard-things/esm) loader
