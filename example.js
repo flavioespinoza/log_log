@@ -65,3 +65,10 @@ const _readFile = fileName => {
 
 _readFile('balls.txt')
 // _readFile('flavor.txt')
+
+const _timestamp = () => {
+    return _.now()
+}
+
+
+log.blue(_timestamp())

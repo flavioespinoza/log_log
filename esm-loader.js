@@ -5,6 +5,4 @@ require = require('esm')(module, { mainFields: ['module', 'main'] })
 require = require('esm')(module, { await: true })
 require = require('esm')(module, { cjs: true })
 
-
-
 module.exports = require('./index.js')
