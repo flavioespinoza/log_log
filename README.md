@@ -6,11 +6,11 @@ Color logs for node console
 
 > This is a `esm` ready module which can be imported without the use of `yarn` or `npm`
 
-`esm` is a fast, production ready, zero-dependency ES module loader for Node 6+!
+> `esm` is a fast, production ready, zero-dependency ES module loader for Node 6+!
 
-Read about it: [Tomorrow’s ES Modules Today!](https://medium.com/web-on-the-edge/tomorrows-es-modules-today-c53d29ac448c)
+> Read about it: [Tomorrow’s ES Modules Today!](https://medium.com/web-on-the-edge/tomorrows-es-modules-today-c53d29ac448c)
 
-ES Module Loader on Github: [esm](https://github.com/standard-things/esm)
+> ES Module Loader on Github: [esm](https://github.com/standard-things/esm)
 
 
 ---
