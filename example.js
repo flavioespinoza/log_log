@@ -64,7 +64,7 @@ const _readFile = fileName => {
 }
 
 _readFile('balls.txt')
-// _readFile('flavor.txt')
+_readFile('flavor.txt')
 
 const _timestamp = () => {
     return _.now()
