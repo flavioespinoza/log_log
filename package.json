@@ -2,8 +2,9 @@
   "name": "@flavioespinoza/log_log",
   "version": "1.0.9",
   "description": "Color logs for node console",
-  "main": "index.js",
   "esm": true,
+  "main": "main.js",
+  "module": "index.js",
   "scripts": {
     "test": "test"
   },
@@ -16,7 +17,7 @@
     "console",
     "color"
   ],
-  "author": "S. Flavio Espinoza",
+  "author": "S. Flavio Espinoza <flavio.espinoza@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/flavioespinoza/log_log/issues"

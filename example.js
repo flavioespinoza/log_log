@@ -1,8 +1,4 @@
-import { _log, log } from './main'
-
-const string = 'Important Message from your Node App.'
-
-const obj = {'prop': 'OBJECT', 'val': 1}
+import { _log, log } from './index'
 
 const data = [
 	{
