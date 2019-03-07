@@ -1,3 +1,5 @@
+import fs from 'fs'
+import _ from 'lodash'
 import { _log, log } from './index'
 
 const data = [
@@ -32,11 +34,34 @@ function do_stuff () {
 	return res
 }
 
-console.log('')
+log.lightMagenta('Timer ----------')
 _log.timer(do_stuff, 'Do Stuff')
-console.log('')
+log.lightMagenta('Timer ----------')
 
-log.lightYellow(data)
+log.lightBlue(data)
 
 _log.info('Hello Info!')
 _log.warn('Hello Warn!')
+
+const _readFile = fileName => {
+    fs.readFile(fileName, 'utf8', (err, data) => {
+        if (err) {
+            const keys = _.keys(err)
+            const errorStr = _.toString(err)
+            const errorObj = {
+                success: false,
+                info: errorStr
+            }
+            _.each(keys, key => {
+                errorObj[key] = err[key]
+            })
+            _log.error(errorObj)
+            return
+        }
+        // Otherwise handle the data
+        _log.info(data)
+    })
+}
+
+_readFile('balls.txt')
+// _readFile('flavor.txt')

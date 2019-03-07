@@ -1,7 +1,8 @@
 // Using esm cli instead of bridge?
-require ('ansicolor').nice
+require('ansicolor').nice
 import log from 'ololog'
 import util from 'util'
+import _ from 'lodash'
 
 const _log = {
     deep: data => {
@@ -15,67 +16,64 @@ const _log = {
     },
     info: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
-        console.log(` Info: ${msg} `.bgBlue.black)
+        console.log(` Info: ${msg} `.bgBlue.white)
     },
     error: msg => {
-        if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
-        }
-        console.log(` Error: ${msg} `.bgRed.black)
+        log.lightYellow('ERROR: ', msg)
     },
     alert: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(` Alert: ${msg} `.bgYellow.black)
     },
     warn: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
-        console.log(` Warn: ${msg} `.bgMagenta.black)
+        console.log(` Warn: ${msg} `.bgMagenta.white)
     },
     blue: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgBlue.black)
     },
     red: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgRed.black)
     },
     green: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgGreen.black)
     },
     pink: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgLightRed.black)
     },
     yellow: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgLightYellow.white)
     },
     violet: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgLightMagenta.black)
     },
     cyan: msg => {
         if (typeof msg === 'object') {
-            msg = JSON.stringify(msg)
+            msg = _.toString(msg)
         }
         console.log(`${msg} `.bgCyan.black)
     },
