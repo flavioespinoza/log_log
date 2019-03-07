@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.43.tgz#8d3281a33c92a56038b05d9460a65bc1dcd5735b"
   integrity sha512-5m5W13HR2k3cu88mpzlnPBBv5+GyMHtj4F0P83RG4mqoC0AYVYHVMHfF3SgwKNtqEZiZQASMxU92QsLEekKcnw==
 
-ansicolor@^1.1.78:
+ansicolor@^1.1.78, ansicolor@^1.1.81:
   version "1.1.81"
   resolved "https://registry.yarnpkg.com/ansicolor/-/ansicolor-1.1.81.tgz#9ccf4e5d129dd77df1eb907a41d7e1f4cfcae015"
   integrity sha512-uSggNDl++k+w9MUeAWoPsKMa9ekTWp50FzOf2LtxH4muRBANuToT2zaMHC47HJ6kySzos95P+2aSJ5DzIJ98sQ==

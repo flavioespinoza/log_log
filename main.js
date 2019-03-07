@@ -1,3 +1,4 @@
+require ('ansicolor').nice
 import log from 'ololog'
 import util from 'util'
 

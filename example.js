@@ -41,3 +41,5 @@ _log.timer(do_stuff, 'Do Stuff')
 console.log('')
 
 log.lightYellow(data)
+
+_log.info('Hello Info!')
