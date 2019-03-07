@@ -70,5 +70,4 @@ const _timestamp = () => {
     return _.now()
 }
 
-
 log.blue(_timestamp())
