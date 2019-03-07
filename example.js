@@ -3,25 +3,25 @@ import _ from 'lodash'
 import { _log, log } from './index'
 
 const data = [
-	{
-		'name': 'Ren',
-		'id': 1,
-		'preferences': {
-			'food': 'steak',
-			'drink': 'bourbon',
-			'ice_cream': 'soap bar',
-			'favorite_episode': 'Space Madness',
-			'hobbies': {
-				'sports': ['soccer', 'bad mitten'],
-				'dancing': ['salsa', 'bachata'],
-				'music': {
-					'alternative': ['Pearl Jam', 'Nirvana'],
-					'glam_rock': ['Mötley Crüe', 'Poison'],
-					'country': ['Johnny Cash', 'George Strait']
-				}
-			}
-		}
-	}
+    {
+        name: 'Ren',
+        id: 1,
+        preferences: {
+            food: 'steak',
+            drink: 'bourbon',
+            ice_cream: 'soap bar',
+            favorite_episode: 'Space Madness',
+            hobbies: {
+                sports: ['soccer', 'bad mitten'],
+                dancing: ['salsa', 'bachata'],
+                music: {
+                    alternative: ['Pearl Jam', 'Nirvana'],
+                    glam_rock: ['Mötley Crüe', 'Poison'],
+                    country: ['Johnny Cash', 'George Strait']
+                }
+            }
+        }
+    }
 ]
 
 _log.deep(data)
@@ -71,3 +71,9 @@ const _timestamp = () => {
 }
 
 log.blue(_timestamp())
+
+log.green('a message')
+for (let i = 0; i < 7; i++) {
+    log.cyan(`a repeated message: Index is ${i}`)
+}
+log.green('end')
