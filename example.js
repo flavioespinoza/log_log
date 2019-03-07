@@ -39,3 +39,4 @@ console.log('')
 log.lightYellow(data)
 
 _log.info('Hello Info!')
+_log.warn('Hello Warn!')
