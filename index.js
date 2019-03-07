@@ -1,5 +1,4 @@
-import { join } from 'path'
-import assert from 'assert'
+// Using esm cli instead of bridge?
 import { _log, log } from './main'
 
 export {
