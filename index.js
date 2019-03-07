@@ -93,4 +93,7 @@ const _log = {
     }
 }
 
-module.exports = _log
+export {
+    log
+}
+export default _log

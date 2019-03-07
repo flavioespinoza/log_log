@@ -1,6 +1,6 @@
 {
   "name": "@flavioespinoza/log_log",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Color logs for node console",
   "esm": true,
   "main": "esm-loader.js",
@@ -10,7 +10,9 @@
     "node": "node ./index.js",
     "example": "node -r esm ./example.js",
     "esm-loader": "node esm-loader.js",
+    "loader": "node esm-loader.js",
     "node-with-esm": "node -r esm ./index.js",
+    "e": "node -r esm ./index.js",
     "node-with-esm:watch": "nodemon -r esm ./index.js"
   },
   "repository": {
