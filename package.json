@@ -31,8 +31,6 @@
   "dependencies": {
     "ansicolor": "^1.1.81",
     "esm": "^3.2.11",
-    "lodash": "^4.17.11",
-    "lodash.map": "^4.6.0",
     "nodemon": "^1.18.10",
     "ololog": "^1.1.114"
   }
