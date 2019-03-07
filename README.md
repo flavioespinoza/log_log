@@ -23,6 +23,8 @@ npm
 npm i @flavioespinoza/log_log
 ```
 
+## import
+
 > Use `import` in typescript or using the new [esm](https://github.com/standard-things/esm) loader
 
 ```javascript
