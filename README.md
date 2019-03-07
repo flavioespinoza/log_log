@@ -1,26 +1,56 @@
 # Log_Log
 
-```console
-npm install @flavioespinoza/log_log --save
+Color logs for node console
+
+### Install
+
+##### Note: This is a `esm` ready module which can be imported without the use of yarn or npm
+
+`esm` is a fast, production ready, zero-dependency ES module loader for Node 6+!
+
+Read about it: [Tomorrow’s ES Modules Today!](https://medium.com/web-on-the-edge/tomorrows-es-modules-today-c53d29ac448c)
+
+ES Module Loader on Github: [esm](https://github.com/standard-things/esm)
+
+
+---
+yarn
+
+```shell
+yarn add @flavioespinoza/log_log
 ```
 
-Require it in your Node app.
+
+npm
+```shell
+npm i @flavioespinoza/log_log
+```
+
+Require it in your Node app using the new esm module by 
+```javascript
+
+// esm or typescript
+import { _log, log } from '@flavioespinoza/log_log'
+```
+
+or 
 
 ```javascript
+// require
 const _log = require('@flavioespinoza/log_log')._log
 const log = require('@flavioespinoza/log_log').log
 ```
 
-## Deep (Nested Objects)
+### Deep (Nested Objects)
+
 ```javascript
-_log.deep(data)
 
-test
-
+_log.info([{prop: 'value', nested: { nested_prop: 'nested value' }}])
 
 ```
 
 ```javascript
+
 const data = [
 	{
 		'name': 'Ren',
@@ -44,10 +74,10 @@ const data = [
 ]
 
 _log.deep(data) //=> See console output below...
+
 ```
 
-
-_log.deep will show the complete data structure no matter how deep the nested object is.
+`_log.deep` will show the complete data structure no matter how deep the nested object is.
 
 ![deep](./img/deep.png)
 
@@ -57,7 +87,7 @@ Normal console.log(data) does not show nested data past 2 levels deep.
 ![deep](./img/console_log.png)
 
 
-## Alerts
+### Alerts
 
 Use _log.alert_name() to show different levels of priority.
 
@@ -80,7 +110,7 @@ Use _log.alert_name() to show different levels of priority.
 ![alerts](./img/alerts.png)
 
 
-## Background Colors
+### Background Colors
 
 Use _log.background_color_name() to show data with background color.
 
@@ -150,7 +180,7 @@ Use log.color_name() without the underscore to color text with no background.
 ![text](./img/text.png)
 
 
-## Timer
+### Timer
 
 Use _log.timer(method, method_name) to log how long a function takes to return.
 

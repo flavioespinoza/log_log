@@ -1,8 +1,4 @@
-const log_log = require('./index')
-
-const log = log_log.log
-
-const _log = log_log._log
+import { _log, log } from './main'
 
 const string = 'Important Message from your Node App.'
 
@@ -30,11 +26,7 @@ const data = [
 	}
 ]
 
-
-
-// console.log('')
-// _log.deep(data)
-
+_log.deep(data)
 
 function do_stuff () {
 	let res = []
@@ -47,3 +39,5 @@ function do_stuff () {
 console.log('')
 _log.timer(do_stuff, 'Do Stuff')
 console.log('')
+
+log.lightYellow(data)
