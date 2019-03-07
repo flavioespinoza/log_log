@@ -2,14 +2,14 @@
 
 Color logs for node console
 
-### Info
+## Info
 
 > This ES Module uses the new [esm](https://github.com/standard-things/esm) module loader by [John-David Dalton](https://github.com/jdalton)
 
 > See the release [post](https://medium.com/web-on-the-edge/tomorrows-es-modules-today-c53d29ac448c)
 > and [video](https://www.youtube.com/watch?v=JcZ-FzfDq8A#t=5) for all the details.
 
-### Install
+## Install
 
 yarn (recommended)
 
@@ -38,7 +38,7 @@ const _log = require('@flavioespinoza/log_log')._log
 const log = require('@flavioespinoza/log_log').log
 ```
 
-### Deep (Nested Objects)
+## Deep (Nested Objects)
 
 > Show the entire depth of a nested `Object` or `Array` with nested `Objects`
 
@@ -77,8 +77,7 @@ _log.deep(data) //=> See console output below...
 
 <img src='img/console_log.png' />
 
-### Alerts
-
+## Alerts
 > Use **`_log` with the underscore** `_log.alertName(data)` to show different levels of priority
 
 ```javascript
@@ -99,7 +98,7 @@ _log.warn(data)
 
 <img src='img/alerts.png' />
 
-### Background Colors
+## Background Colors
 > Use **`_log` with the underscore** `_log.colorName(data)` to show data with background color
 
 ```javascript
@@ -132,7 +131,7 @@ _log.cyan(data)
 
 <img src='img/colors.png' />
 
-### Text Colors
+## Text Colors
 > Use **`log` without the underscore** `log.colorName(data)` to color text with no background.
 
 ```javascript
