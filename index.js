@@ -1,2 +1,8 @@
-require = require('esm')(module /*, options*/)
-module.exports = require('./main.js')
+import { join } from 'path'
+import assert from 'assert'
+import { _log, log } from './main'
+
+export {
+    _log,
+    log
+}
