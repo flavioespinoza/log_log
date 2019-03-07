@@ -3,10 +3,15 @@
   "version": "1.0.11",
   "description": "Color logs for node console",
   "esm": true,
-  "main": "main.js",
+  "main": "esm-loader.js",
   "module": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js",
+    "node": "node ./index.js",
+    "example": "node -r esm ./example.js",
+    "esm-loader": "node esm-loader.js",
+    "node-with-esm": "node -r esm ./index.js",
+    "node-with-esm:watch": "nodemon -r esm ./index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +32,8 @@
     "ansicolor": "^1.1.81",
     "esm": "^3.2.11",
     "lodash": "^4.17.11",
+    "lodash.map": "^4.6.0",
+    "nodemon": "^1.18.10",
     "ololog": "^1.1.114"
   }
 }
