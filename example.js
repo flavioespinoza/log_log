@@ -26,12 +26,12 @@ const data = [
 
 _log.deep(data)
 
-function do_stuff () {
-	let res = []
-	for (let i = 0; i < 100000; i++) {
-		res.push(i)
-	}
-	return res
+function do_stuff() {
+    let res = []
+    for (let i = 0; i < 100000; i++) {
+        res.push(i)
+    }
+    return res
 }
 
 log.lightMagenta('Timer ----------')
