@@ -1,30 +1,22 @@
 {
-  "name": "@flavioespinoza/log_log",
-  "version": "1.0.20",
-  "description": "Color logs for node console",
-  "esm": true,
-  "main": "esm-loader.js",
-  "module": "index.js",
+  "name": "log_log",
+  "version": "1.0.21",
+  "description": "Color logs",
+  "main": "index.js",
+  "module": "main.js",
   "scripts": {
-    "test": "node test.js",
-    "node": "node ./index.js",
-    "example": "node -r esm ./example.js",
-    "esm-loader": "node esm-loader.js",
-    "loader": "node esm-loader.js",
-    "node-with-esm": "node -r esm ./index.js",
-    "e": "node -r esm ./index.js",
-    "node-with-esm:watch": "nodemon -r esm ./index.js"
+    "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flavioespinoza/log_log.git"
   },
   "keywords": [
-    "log",
     "console",
+    "log",
     "color"
   ],
-  "author": "S. Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/flavioespinoza/log_log/issues"
@@ -32,9 +24,8 @@
   "homepage": "https://github.com/flavioespinoza/log_log#readme",
   "dependencies": {
     "ansicolor": "^1.1.81",
-    "esm": "^3.2.11",
+    "esm": "^3.2.13",
     "lodash": "^4.17.11",
-    "nodemon": "^1.18.10",
-    "ololog": "^1.1.114"
+    "ololog": "^1.1.117"
   }
 }

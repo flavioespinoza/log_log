@@ -185,3 +185,6 @@ _log.timer(do_stuff, 'Do Stuff')
 
 console output
 <img src='img/log_timer.png' />
+
+
+Licence: MIT
