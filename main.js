@@ -90,6 +90,4 @@ const _log = {
         console.timeEnd(`Timer ${method_name}()`)
     }
 }
-
-export { log }
-export default _log
+module.exports = _log
