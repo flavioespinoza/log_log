@@ -1,96 +1,127 @@
-require('ansicolor').nice
-import _ from 'lodash'
-import log from 'ololog'
-import util from 'util'
+"use strict";
 
-const _log = {
-    deep: data => {
-        const options = {
-            showHidden: false,
-            depth: null,
-            colors: true
-        }
-        const inspect = util.inspect(data, options)
-        console.log(inspect)
-    },
-    info: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(` Info: ${msg} `.bgBlue.white)
-    },
-    error: msg => {
-        log.lightYellow('ERROR: ', msg)
-    },
-    alert: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(` Alert: ${msg} `.bgYellow.black)
-    },
-    warn: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(` Warn: ${msg} `.bgMagenta.white)
-    },
-    blue: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgBlue.black)
-    },
-    red: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgRed.black)
-    },
-    green: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgGreen.black)
-    },
-    pink: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgLightRed.black)
-    },
-    yellow: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgLightYellow.white)
-    },
-    violet: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgLightMagenta.black)
-    },
-    cyan: msg => {
-        if (typeof msg === 'object') {
-            msg = _.toString(msg)
-        }
-        console.log(`${msg} `.bgCyan.black)
-    },
-    assert: (item, item_name) => {
-        if (item) {
-            let msg = ` SUCCESS: ${item_name} = ${item} `
-            console.log(`ASSERT`, msg.bgCyan.black)
-        } else {
-            let msg = ` FAIL: ${item_name} = ${item} `
-            console.log(`ASSERT`, msg.bgRed.black)
-        }
-    },
-    timer: (method, method_name) => {
-        console.time(`Timer ${method_name}()`)
-        method()
-        console.timeEnd(`Timer ${method_name}()`)
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "log", {
+  enumerable: true,
+  get: function get() {
+    return _ololog.default;
+  }
+});
+exports.default = void 0;
+
+var _lodash = _interopRequireDefault(require("lodash"));
+
+var _ololog = _interopRequireDefault(require("ololog"));
+
+var _util = _interopRequireDefault(require("util"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+require('ansicolor').nice;
+var _log = {
+  deep: function deep(data) {
+    var options = {
+      showHidden: false,
+      depth: null,
+      colors: true
+    };
+
+    var inspect = _util.default.inspect(data, options);
+
+    console.log(inspect);
+  },
+  info: function info(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
     }
-}
 
-export { log }
-export default _log
+    console.log(" Info: ".concat(msg, " ").bgBlue.white);
+  },
+  error: function error(msg) {
+    _ololog.default.lightYellow('ERROR: ', msg);
+  },
+  alert: function alert(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log(" Alert: ".concat(msg, " ").bgYellow.black);
+  },
+  warn: function warn(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log(" Warn: ".concat(msg, " ").bgMagenta.white);
+  },
+  blue: function blue(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgBlue.black);
+  },
+  red: function red(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgRed.black);
+  },
+  green: function green(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgGreen.black);
+  },
+  pink: function pink(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgLightRed.black);
+  },
+  yellow: function yellow(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgLightYellow.white);
+  },
+  violet: function violet(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgLightMagenta.black);
+  },
+  cyan: function cyan(msg) {
+    if (_typeof(msg) === 'object') {
+      msg = _lodash.default.toString(msg);
+    }
+
+    console.log("".concat(msg, " ").bgCyan.black);
+  },
+  assert: function assert(item, item_name) {
+    if (item) {
+      var msg = " SUCCESS: ".concat(item_name, " = ").concat(item, " ");
+      console.log("ASSERT", msg.bgCyan.black);
+    } else {
+      var _msg = " FAIL: ".concat(item_name, " = ").concat(item, " ");
+
+      console.log("ASSERT", _msg.bgRed.black);
+    }
+  },
+  timer: function timer(method, method_name) {
+    console.time("Timer ".concat(method_name, "()"));
+    method();
+    console.timeEnd("Timer ".concat(method_name, "()"));
+  }
+};
+var _default = _log;
+exports.default = _default;
