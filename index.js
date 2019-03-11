@@ -92,4 +92,5 @@ const _log = {
     }
 }
 
+export { log }
 export default _log
