@@ -1,7 +1,7 @@
 require('ansicolor').nice
-const _ = require('lodash')
-const log = require('ololog')
-const util = require('util')
+import _ from 'lodash'
+import log from 'ololog'
+import util from 'util'
 
 const _log = {
     deep: data => {
