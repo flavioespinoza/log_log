@@ -23,7 +23,7 @@ npm
 npm i @flavioespinoza/log_log
 ```
 
-## import
+## ES6 import
 
 > Use `import` in typescript or using the new [esm](https://github.com/standard-things/esm) loader
 
@@ -32,14 +32,11 @@ npm i @flavioespinoza/log_log
 import _log, { log } from '@flavioespinoza/log_log'
 ```
 
-
+## ES5 require
 > Use `require` for common.js modules
 ```javascript
 // require
-const _log = require('@flavioespinoza/log_log')
-const {
-    log
-} = require('@flavioespinoza/log_log')
+const { _log, log } = require('@flavioespinoza/log_log/es5/index')
 ```
 
 ## Deep (Nested Objects)
