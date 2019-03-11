@@ -1,4 +1,3 @@
-require('ansicolor').nice
 import _ from 'lodash'
 import log from 'ololog'
 import util from 'util'
