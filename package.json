@@ -27,6 +27,8 @@
     "ansicolor": "^1.1.81",
     "esm": "3.0.84",
     "lodash": "^4.17.11",
+    "lodash.debounce": "^4.0.8",
+    "lodash.now": "^4.0.2",
     "ololog": "^1.1.117"
   }
 }
