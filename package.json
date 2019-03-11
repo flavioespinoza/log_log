@@ -1,9 +1,10 @@
 {
   "name": "@flavioespinoza/log_log",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "Color logs",
   "esm": true,
-  "main": "index.js",
+  "module": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "test"
   },
