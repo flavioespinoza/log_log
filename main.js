@@ -93,5 +93,7 @@ const _log = {
 
 _log.alert('Hello log_log')
 
-export { log }
-export default _log
+export {
+    _log as default,
+    log
+}
