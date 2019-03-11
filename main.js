@@ -1,3 +1,4 @@
+import { nice } from 'ansicolor'
 import _ from 'lodash'
 import log from 'ololog'
 import util from 'util'
@@ -91,4 +92,7 @@ const _log = {
     }
 }
 
-export default _log
+export {
+    _log as default,
+    log
+}

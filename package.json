@@ -8,10 +8,7 @@
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/flavioespinoza/log_log.git"
-  },
+  "repository": "git+https://github.com/flavioespinoza/log_log.git",
   "keywords": [
     "console",
     "log",
@@ -25,10 +22,9 @@
   "homepage": "https://github.com/flavioespinoza/log_log#readme",
   "dependencies": {
     "ansicolor": "^1.1.81",
-    "esm": "3.0.84",
+    "esm": "^3.2.14",
     "lodash": "^4.17.11",
-    "lodash.debounce": "^4.0.8",
-    "lodash.now": "^4.0.2",
     "ololog": "^1.1.117"
-  }
+  },
+  "private": true
 }

@@ -26,10 +26,10 @@ data-uri-to-buffer@^2.0.0:
   dependencies:
     "@types/node" "^8.0.7"
 
-esm@3.0.84:
-  version "3.0.84"
-  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.84.tgz#bb108989f4673b32d4f62406869c28eed3815a63"
-  integrity sha512-SzSGoZc17S7P+12R9cg21Bdb7eybX25RnIeRZ80xZs+VZ3kdQKzqTp2k4hZJjR7p9l0186TTXSgrxzlMDBktlw==
+esm@^3.2.14:
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.14.tgz#567f65e9433bb0873eb92ed5e92e876c3ec2a212"
+  integrity sha512-uQq8DK0HB0n2Ze9gshhxGQa60caKmwNH7tKxALAT6wxYGfQCdEMXA3MV3z1rh8TSmQIVFYbltm9Xe1ghusnCqw==
 
 get-source@^1.0.32:
   version "1.0.33"
@@ -38,16 +38,6 @@ get-source@^1.0.32:
   dependencies:
     data-uri-to-buffer "^2.0.0"
     source-map "^0.6.1"
-
-lodash.debounce@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
-  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
-
-lodash.now@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/lodash.now/-/lodash.now-4.0.2.tgz#5b5b0461aabc10ce7753505fd9d9b7278c8c6cc7"
-  integrity sha1-W1sEYaq8EM53U1Bf2dm3J4yMbMc=
 
 lodash@^4.17.11:
   version "4.17.11"
