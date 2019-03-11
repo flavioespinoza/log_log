@@ -2,7 +2,6 @@
 //see https://youtu.be/JcZ-FzfDq8A?t=1880
 
 // Set options as a parameter, environment variable, or rc file.
-require('ansicolor').nice
 require = require('esm')(module, {
     mainFields: ['main', 'module']
 })
