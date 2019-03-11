@@ -1,4 +1,3 @@
-import { nice } from 'ansicolor'
 import _ from 'lodash'
 import log from 'ololog'
 import util from 'util'

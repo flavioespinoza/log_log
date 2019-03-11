@@ -1,6 +1,6 @@
 {
   "name": "@flavioespinoza/log_log",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "Color logs",
   "esm": true,
   "main": "index.js",
@@ -26,5 +26,5 @@
     "lodash": "^4.17.11",
     "ololog": "^1.1.117"
   },
-  "private": true
+  "private": false
 }
