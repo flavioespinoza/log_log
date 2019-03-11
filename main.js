@@ -2,7 +2,7 @@ import _ from 'lodash'
 import log from 'ololog'
 import util from 'util'
 
-export default _log = {
+const _log = {
     deep: data => {
         const options = {
             showHidden: false,
@@ -90,3 +90,5 @@ export default _log = {
         console.timeEnd(`Timer ${method_name}()`)
     }
 }
+
+module.exports = _log
