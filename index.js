@@ -144,5 +144,5 @@ const _log = {
     },
     log: log
 }
-
+exports.log = log
 module.exports = _log

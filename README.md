@@ -36,7 +36,8 @@ import _log, { log } from '@flavioespinoza/log_log'
 > Use `require` for common.js modules
 ```javascript
 // require
-const { _log, log } = require('@flavioespinoza/log_log/es5/index')
+const _log = require('@flavioespinoza/log_log')
+const { log } = require('@flavioespinoza/log_log')
 ```
 
 ## Deep (Nested Objects)
