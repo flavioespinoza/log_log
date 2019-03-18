@@ -2,13 +2,14 @@
   "name": "@flavioespinoza/log_log",
   "version": "1.0.64",
   "description": "Color logs",
+  "esm": true,
   "main": "index.js",
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "example": "node -r esm example.js",
-    "roll": "rollup src/main.js -o bundle.js -f cjs"
+    "roll": "rollup src/main.js -o src/bundle.js -f cjs"
   },
   "repository": "git+https://github.com/flavioespinoza/log_log.git",
   "keywords": [

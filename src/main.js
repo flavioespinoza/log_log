@@ -1,4 +1,4 @@
-import _log, {log} from './logdash'
+import _log, {log} from './index'
 
 export {log}
 export default _log
