@@ -1,13 +1,6 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var _ = _interopDefault(require('lodash'));
-var util = _interopDefault(require('util'));
-require('colors');
-
+import _ from 'lodash';
+import util from 'util';
+import 'colors';
 const log = {
     blue: (msg) => {
         if (typeof msg === 'object') {
@@ -150,6 +143,6 @@ const _log = {
         console.timeEnd(`Timer ${method_name}()`);
     }
 };
-
-exports.log = log;
-exports.default = _log;
+export { log };
+export default _log;
+//# sourceMappingURL=logdash.js.map
