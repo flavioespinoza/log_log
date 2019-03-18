@@ -6,8 +6,8 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-	"test": "node -r esm example.js",
-	"roll": "rollup src/rollup___.js -o index.js -f cjs"
+    "test": "node -r esm example.js",
+    "roll": "rollup src/rollup___.js -o index.js -f cjs"
   },
   "repository": "git+https://github.com/flavioespinoza/log_log.git",
   "keywords": [
