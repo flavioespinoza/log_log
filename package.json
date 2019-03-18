@@ -10,7 +10,7 @@
     "build": "tsc",
     "test:esm": "node -r esm test/esm.test.js",
     "test:cjs": "node test/require.test.js",
-    "test": "npm run test:esm &&  npm run test:esm"
+    "test": "npm run test:esm && npm run test:esm"
   },
   "repository": "git+https://github.com/flavioespinoza/log_log.git",
   "keywords": [
