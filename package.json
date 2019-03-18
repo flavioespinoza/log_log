@@ -20,11 +20,12 @@
     "url": "https://github.com/flavioespinoza/log_log/issues"
   },
   "homepage": "https://github.com/flavioespinoza/log_log#readme",
-  "dependencies": {
-    "ansicolor": "^1.1.81",
+  "private": false,
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+	"colors": "^1.3.3",
+	"@types/lodash": "^4.14.123",
     "esm": "^3.2.14",
-    "lodash": "^4.17.11",
-    "ololog": "^1.1.117"
-  },
-  "private": false
+    "lodash": "^4.17.11"
+  }
 }
