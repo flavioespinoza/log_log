@@ -1,7 +1,7 @@
 import fs from 'fs'
 import _ from 'lodash'
-import _log, { log } from './index'
-
+import _log from './index'
+const log = _log.log
 const data = [
     {
         name: 'Ren',
