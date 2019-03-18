@@ -34,11 +34,11 @@ function do_stuff() {
     return res
 }
 
-log.lightMagenta('Timer ----------')
+log.red('Timer ----------')
 _log.timer(do_stuff, 'Do Stuff')
-log.lightMagenta('Timer ----------')
+log.blue('Timer ----------')
 
-log.lightBlue(data)
+log.cyan(data)
 
 _log.info('Hello Info!')
 _log.warn('Hello Warn!')
