@@ -148,7 +148,8 @@ const _log = {
         console.time(`Timer ${method_name}()`)
         method()
         console.timeEnd(`Timer ${method_name}()`)
-    }
+    },
+    log: log
 }
 
 export { log }

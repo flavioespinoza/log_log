@@ -3,6 +3,8 @@ const _ = require('lodash')
 const _log = require('../index')
 const { log } = require('../index')
 
+console.log(_log)
+
 const data = [
     {
         name: 'Ren',

@@ -1,6 +1,9 @@
 import fs from 'fs'
 import _ from 'lodash'
-import _log, { log } from '../index'
+import _log from '../src/index'
+import { log } from '../src/index'
+
+console.log(_log)
 
 const data = [
     {
