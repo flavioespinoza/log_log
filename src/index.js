@@ -1,18 +1,13 @@
-"use strict";
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result["default"] = mod;
-    return result;
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const _ = __importStar(require("lodash"));
-const util_1 = __importDefault(require("util"));
+import _ from 'lodash';
+import util from 'util';
+import 'colors';
 const log = {
+    babyBlue: (msg) => {
+        if (typeof msg === 'object') {
+            msg = _.toString(msg);
+        }
+        console.log(`${msg} `.blue.dim);
+    },
     blue: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
@@ -62,7 +57,6 @@ const log = {
         console.log(`${msg} `.cyan);
     }
 };
-exports.log = log;
 const _log = {
     deep: (data) => {
         const options = {
@@ -70,90 +64,92 @@ const _log = {
             depth: null,
             colors: true
         };
-        const inspect = util_1.default.inspect(data, options);
+        const inspect = util.inspect(data, options);
         console.log(inspect);
     },
     info: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(` Info: ${msg} `.bgBlue.white);
+        console.log(` Info: ${msg} `.bgBlue);
     },
     error: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(` ERROR: ${msg} `.yellow.bold);
+        console.log(` ERROR: ${msg} `.yellow);
     },
     alert: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(` Alert: ${msg} `.bgYellow.black);
+        console.log(` Alert: ${msg} `.bgYellow);
     },
     warn: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(` Warn: ${msg} `.bgMagenta.white);
+        console.log(` Warn: ${msg} `.bgMagenta);
     },
     blue: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgBlue.black);
+        console.log(`${msg} `.bgBlue);
     },
     red: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgRed.black);
+        console.log(`${msg} `.bgRed);
     },
     green: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgGreen.black);
+        console.log(`${msg} `.bgGreen);
     },
     pink: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgRed.white);
+        console.log(`${msg} `.bgRed);
     },
     yellow: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgYellow.white);
+        console.log(`${msg} `.bgYellow);
     },
     violet: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgMagenta.black);
+        console.log(`${msg} `.bgMagenta);
     },
     cyan: (msg) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg);
         }
-        console.log(`${msg} `.bgCyan.black);
+        console.log(`${msg} `.bgCyan);
     },
     assert: (item, item_name) => {
         if (item) {
             let msg = ` SUCCESS: ${item_name} = ${item} `;
-            console.log(`ASSERT`, msg.bgCyan.black);
+            console.log(`ASSERT`, msg.bgCyan);
         }
         else {
             let msg = ` FAIL: ${item_name} = ${item} `;
-            console.log(`ASSERT`, msg.bgRed.black);
+            console.log(`ASSERT`, msg.bgRed);
         }
     },
     timer: (method, method_name) => {
         console.time(`Timer ${method_name}()`);
         method();
         console.timeEnd(`Timer ${method_name}()`);
-    }
+    },
+    log: log
 };
-exports.default = _log;
-//# sourceMappingURL=_logdash.js.map
+export { log };
+export default _log;
+//# sourceMappingURL=index.js.map

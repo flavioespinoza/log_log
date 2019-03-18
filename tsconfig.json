@@ -11,9 +11,8 @@
 		"strict": true,
 		"esModuleInterop": true,
 		"noImplicitAny": true,
-
 		"jsx": "react",
-		"allowJs": true
+        "declaration": true
 	},
 	"sourceMap": true,
 	"include": ["_src/**/*.ts"],
