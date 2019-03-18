@@ -1,4 +1,3 @@
-/// <reference path='./index.d.ts' />
 const _ = require('lodash')
 const util = require('util')
 require('colors')

@@ -3,6 +3,12 @@ import util from 'util'
 import 'colors'
 
 const log = {
+    babyBlue: (msg: any) => {
+        if (typeof msg === 'object') {
+            msg = _.toString(msg)
+        }
+        console.log(`${msg} `.blue.dim)
+    },
     blue: (msg: any) => {
         if (typeof msg === 'object') {
             msg = _.toString(msg)
@@ -142,8 +148,7 @@ const _log = {
         console.time(`Timer ${method_name}()`)
         method()
         console.timeEnd(`Timer ${method_name}()`)
-    },
-    log: log
+    }
 }
 
 export { log }

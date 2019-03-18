@@ -1,8 +1,8 @@
 export default {
     name: 'log_log',
-    input: 'src/rollup___.js',
+    input: 'src/main.js',
     output: {
-      file: 'index.js',
-      format: 'cjs'
+        file: 'bundle.js',
+        format: 'cjs'
     }
-  };
+}

@@ -35,6 +35,11 @@
   dependencies:
     colors "*"
 
+"@types/emojione@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@types/emojione/-/emojione-2.2.5.tgz#a1d839e39b33316edbf512aa6ed4ad70ac323a7a"
+  integrity sha512-qQOS8EoHknNOFx7akECkDn5qy3WeChgeD1/ACqHzZ0LBEQydCdyeUq2s5gOSNbhgDo3cHueeaNbxbaXtZ5HpCA==
+
 "@types/lodash@^4.14.123":
   version "4.14.123"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.123.tgz#39be5d211478c8dd3bdae98ee75bb7efe4abfe4d"
@@ -1290,6 +1295,11 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+emojione@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/emojione/-/emojione-4.5.0.tgz#cf1f5d417394988296aef72bd3ac3d480890838a"
+  integrity sha512-Tq55Y3UgPOnayFDN+Qd6QMP0rpoH10a1nhSFN27s8gXW3qymgFIHiXys2ECYYAI134BafmI3qP9ni2rZOe9BjA==
 
 encodeurl@~1.0.2:
   version "1.0.2"

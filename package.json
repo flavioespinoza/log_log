@@ -3,11 +3,12 @@
   "version": "1.0.64",
   "description": "Color logs",
   "main": "index.js",
-  "types": "index.d.ts",
-  "module": "index.js",
+  "types": "src/index.d.ts",
   "scripts": {
-    "test": "node -r esm example.js",
-    "roll": "rollup src/rollup___.js -o index.js -f cjs"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node -r esm example.js",
+    "roll": "rollup src/main.js -o bundle.js -f cjs"
   },
   "repository": "git+https://github.com/flavioespinoza/log_log.git",
   "keywords": [
@@ -25,12 +26,14 @@
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/colors": "^1.2.1",
+    "@types/emojione": "^2.2.5",
     "@types/lodash": "^4.14.123",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "chance": "^1.0.16",
     "colors": "^1.3.3",
     "docdown": "^0.7.3",
+    "emojione": "^4.5.0",
     "esm": "^3.2.18",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
