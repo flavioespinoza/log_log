@@ -1,45 +1,43 @@
 {
-  "name": "@flavioespinoza/log_log",
-  "version": "1.0.67",
-  "description": "Color logs",
-  "esm": true,
-  "main": "src/main.js",
-  "module": "index.js",
-  "types": "src/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "test:esm": "node -r esm test/esm.test.js",
-    "test:cjs": "node test/require.test.js",
-    "test": "npm run test:esm && npm run test:esm"
-  },
-  "repository": "git+https://github.com/flavioespinoza/log_log.git",
-  "keywords": [
-    "console",
-    "log",
-    "color"
-  ],
-  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/flavioespinoza/log_log/issues"
-  },
-  "homepage": "https://github.com/flavioespinoza/log_log#readme",
-  "private": false,
-  "devDependencies": {
-    "@types/colors": "^1.2.1",
-    "@types/lodash": "^4.14.123",
-    "colors": "^1.3.3",
-    "docdown": "^0.7.3",
-    "esm": "^3.2.18",
-    "lodash": "^4.17.11",
-    "markdown-doctest": "^0.9.1",
-    "ts-jest": "^23.10.5",
-    "ts-node": "^8.0.3",
-    "ts-node-dev": "^1.0.0-pre.32",
-    "tslint": "^5.12.1",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^3.6.0",
-    "typescript": "^3.3.3"
-  }
+    "name": "@flavioespinoza/log_log",
+    "version": "1.0.68",
+    "description": "Color logs",
+    "main": "index.js",
+    "types": "src/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test:esm": "node -r esm test/esm.test.js",
+        "test:cjs": "node test/require.test.js",
+        "test": "npm run test:esm && npm run test:esm"
+    },
+    "repository": "git+https://github.com/flavioespinoza/log_log.git",
+    "keywords": [
+        "console",
+        "log",
+        "color"
+    ],
+    "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/flavioespinoza/log_log/issues"
+    },
+    "homepage": "https://github.com/flavioespinoza/log_log#readme",
+    "private": false,
+    "devDependencies": {
+        "@types/colors": "^1.2.1",
+        "@types/lodash": "^4.14.123",
+        "colors": "^1.3.3",
+        "docdown": "^0.7.3",
+        "esm": "^3.2.18",
+        "lodash": "^4.17.11",
+        "markdown-doctest": "^0.9.1",
+        "ts-jest": "^23.10.5",
+        "ts-node": "^8.0.3",
+        "ts-node-dev": "^1.0.0-pre.32",
+        "tslint": "^5.12.1",
+        "tslint-config-airbnb": "^5.11.1",
+        "tslint-config-prettier": "^1.18.0",
+        "tslint-react": "^3.6.0",
+        "typescript": "^3.3.3"
+    }
 }
