@@ -1,21 +1,31 @@
 {
-	"compilerOptions": {
-		"moduleResolution": "node",
-		"pretty": true,
-		"sourceMap": true,
-		"lib": ["es2016"],
-		"module": "es6",
-		"target": "es6",
-		"outDir": "./src/",
-		"baseUrl": "/",
-		"strict": true,
-		"esModuleInterop": true,
-        "noImplicitAny": true,
-		"suppressImplicitAnyIndexErrors": true,
-		"jsx": "react",
-        "declaration": true
-	},
-	"sourceMap": true,
-	"include": ["_src/**/*.ts"],
-	"exclude": ["node_modules", "_lib", "lib"]
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "pretty": true,
+    "sourceMap": true,
+    "lib": [
+      "es2016",
+      "dom",
+      "esnext"
+    ],
+    "module": "es6",
+    "target": "es6",
+    "outDir": "./src/",
+    "baseUrl": "/",
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react",
+    "declaration": true
+  },
+  "sourceMap": true,
+  "include": [
+    "_src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "_lib",
+    "lib"
+  ]
 }
