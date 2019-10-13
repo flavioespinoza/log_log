@@ -1,6 +1,6 @@
-import 'colors';
 import _ from 'lodash';
 import util from 'util';
+import 'colors';
 const log = {
   babyBlue: (msg) => {
     if (typeof msg === 'object') {
